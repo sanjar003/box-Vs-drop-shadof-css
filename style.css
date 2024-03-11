@@ -1,0 +1,17 @@
+html{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.img1{
+    width: 300px;
+    box-shadow:  10px 7px 20px orange;
+}
+.img2{
+    width: 300px;
+    filter: drop-shadow(10px 7px 10px orange);
+}
